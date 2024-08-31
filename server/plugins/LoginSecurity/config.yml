@@ -34,12 +34,12 @@ command-shortcut:
   enabled: false
   login: /l
   register: /reg
-updater:
+updater: TurkWilliam
   enabled: true
   # The type of builds you are checking. RELEASE, BETA, ALPHA
   channel: BETA
 # Session timeout in seconds, set to -1 to disable.
-session-timeout: 0
+session-timeout:
 # Login timeout in seconds, set to -1 to disable.
 login-timeout: 30
 # Login/register message delay in seconds.
@@ -47,4 +47,4 @@ login-message-delay: 10
 # Language for messages, check wiki for more info.
 # List: https://github.com/lenis0012/Translations
 # This setting should be set tot he file name without .json
-language: en_us
+language: en_us_tr
