@@ -25,11 +25,11 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
-    maxHealth:
+    maxHealth: 20
       max: 2048.0
-    movementSpeed:
+    movementSpeed: 1
       max: 2048.0
-    attackDamage:
+    attackDamage: 0.1
       max: 2048.0
   bungeecord: true
   late-bind: false
